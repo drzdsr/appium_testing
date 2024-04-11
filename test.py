@@ -43,6 +43,7 @@ driver.back()
 discoverBtn = driver.find_element(By.XPATH, '//*[@resource-id="com.zhiliaoapp.musically.go:id/a57"]/android.widget.ImageView')
 discoverBtn.click()
 
+#Error From Here Above code is Working
 discoverSearchBtn = driver.find_element(by=AppiumBy.ACCESSIBILITY_ID, value='SearchSearch')
 discoverSearchBtn.click()
 
