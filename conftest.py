@@ -4,7 +4,6 @@ import pytest
 from appium import webdriver
 from appium.webdriver.common.appiumby import AppiumBy
 from appium.options.common import AppiumOptions
-
 @pytest.fixture(scope='session')
 def appium_driver():
     capabilities = {
